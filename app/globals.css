@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #f6f8f7;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    linear-gradient(180deg, rgba(216, 243, 240, 0.65), rgba(246, 248, 247, 0) 380px),
+    #f6f8f7;
+  color: #123142;
+}
+
+a {
+  text-underline-offset: 3px;
+}
+
+button,
+select {
+  font: inherit;
+}
